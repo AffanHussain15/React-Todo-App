@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AffanHussain15/React-Todo-App.git/static/css/main.f855e6bc.css",
+    "main.js": "/AffanHussain15/React-Todo-App.git/static/js/main.9a55f8e6.js",
+    "static/js/453.cd4e7376.chunk.js": "/AffanHussain15/React-Todo-App.git/static/js/453.cd4e7376.chunk.js",
+    "static/media/logo.svg": "/AffanHussain15/React-Todo-App.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AffanHussain15/React-Todo-App.git/index.html",
+    "main.f855e6bc.css.map": "/AffanHussain15/React-Todo-App.git/static/css/main.f855e6bc.css.map",
+    "main.9a55f8e6.js.map": "/AffanHussain15/React-Todo-App.git/static/js/main.9a55f8e6.js.map",
+    "453.cd4e7376.chunk.js.map": "/AffanHussain15/React-Todo-App.git/static/js/453.cd4e7376.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.9a55f8e6.js"
+  ]
+}
