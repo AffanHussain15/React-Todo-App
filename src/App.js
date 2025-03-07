@@ -1,7 +1,21 @@
 // import logo from './logo.svg';
 // import './App.css';
+import { useState } from 'react';
+import TodoList from './component/TodoList';
+import AddTodo from './component/AddTodo';
+import { v4 as uuidv4 } from 'uuid';
 
 function App() {
+  const [todos, setTodos] = useState([]);
+
+  const addTodo = (task) => {
+    const newTodo = { id: uuidv4(), task: task };
+    setTodos([...todos, newTodo]);
+  };
+
+  const deleteTodo = (id) => {
+    setTodos(todos.filter((todo) => todo.id !== id));
+  };
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -18,9 +32,13 @@ function App() {
           Learn React
         </a> 
       </header> */}
-      <h1>Todo List App</h1>
+      <div>
+       <h1>Todo List App</h1>
+       <AddTodo addTodo={addTodo} />
+     <TodoList todos={todos} deleteTodo={deleteTodo} />
+          </div>
     </div>
   );
 }
 
-export default App;
+export default App
